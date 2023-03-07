@@ -2,18 +2,18 @@ function progress(){
   var percent = document.querySelector('.percent');
   var progress = document.querySelector('.progress');
   var text = document.querySelector('.text');
-  var count = 4;
-  var per = 16;
-  var loading = setInterval(animate, 85);
+  var progressBar = document.querySelector('.progress-bar');
+
+  var per = 5;
+  var loading = setInterval(animate, 75);
+
   function animate(){
-    if(count == 100 && per == 400){
-      percent.classList.add("text-blink");
+    if( per == 195){
+      progressBar.style.display = "none";
       text.style.display = "block";
       clearInterval(loading);
-
     }else{
-      per = per + 4;
-      count = count + 1;
+      per = per + 2;
       progress.style.width = per + 'px';
       percent.textContent = count + '%';
     }
