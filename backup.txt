@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Loading Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+  
+    <div class="wrap">
+      <div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div><div class="c"></div>
+       <div class="c"></div>
+        <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div> <div class="c"></div>
+  </div>
+    <div class="loading">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+<!-- --------- -->
+
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+
+ <div class="navigation-box">
+  <div class="container">
+    <div class="bigLine" style="height: 90%;"></div>
+    <div class="main-nav">
+      <ul>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">01</div>
+          <span></span>
+          <a href="">Home</a>
+        </li>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">02</div>
+          <span></span>
+          <a href="">Services</a>
+        </li>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">03</div>
+          <span></span>
+          <a href="">Work</a>
+        </li>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">04</div>
+          <span></span>
+          <a href="">About</a>
+        </li>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">05</div>
+          <span></span>
+          <a href="">Careers</a>
+        </li>
+        <li style="opacity: 1; transform: none;">
+          <div class="num">06</div>
+          <span></span>
+          <a href="">Contact</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="contact-information">
+      <div class="info-holder">
+        <span style="height: 100%;"></span>
+        <p style="opacity: 1; transform: none;">
+          <a href="mailto:info@cybernest.com">info@cybernest.com</a>
+          <br>
+        </p>
+      </div>
+      <div class="info-holder">
+        <span style="height: 100%;"></span>
+        <p class="information-box" style="opacity: 1; transform: none;">
+        <div itemscope="" itemtype="http://schema.org/Organization">
+          <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+            <span>Visit Us</span>
+            <br>
+            <a href="https://www.google.com/maps/place/2918+Avenue+I,+Brooklyn,+NY+11210,+USA/@40.628878,-73.9498667,17z/data=!3m1!4b1!4m5!3m4!1s0x89c244ad8010e357:0x2753f3166fbff54b!8m2!3d40.628878!4d-73.947678" target="_blank">
+              <span itemprop="streetAddress">2918 Avenue I Unit #5055 </span>
+              <span itemprop="addressLocality">Brooklyn</span>
+              <br>
+              <span itemprop="addressRegion">NY </span>
+              <span itemprop="postalCode">11210 </span>
+              <span itemprop="addressCountry">United States</span>
+            </a>
+            <br>
+            <a href="tel:+13476270234" itemprop="telephone">+1 347 627 0234</a>
+            <br>
+            <br>
+          </div>
+          <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+            <a href="https://www.google.com/maps/place/Cyber+Nest/@31.4697647,74.2615209,15z/data=!4m2!3m1!1s0x0:0xffc32ef4b23d9a66?sa=X&amp;ved=2ahUKEwj9hISryfP4AhV1i_0HHaiLBjMQ_BJ6BAhKEAU" target="_blank">
+              <span itemprop="streetAddress">345, Block H3 Johar Town </span>
+              <span itemprop="postalCode">54000 </span>
+              <span itemprop="addressRegion">Punjab </span>
+              <br>
+              <span itemprop="addressLocality">Lahore </span>
+              <span itemprop="addressCountry">Pakistan</span>
+            </a>
+            <br>
+            <a href="tel:+924232188653" itemprop="telephone">+92 423 2188653</a>
+          </div>
+        </div>
+        </p>
+      </div>
+    </div>
+    
+    <div class="background-image" style="opacity: 1; transform: scale(6) rotateZ(15deg) translateZ(0px);"></div>
+   </div>
+ </div>
+</div>
+
+
+<!-- ------------- -->
+
+
+
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div class="bigLine" style="height: 90%;"></div>
+
+          <div class="left-side">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class = "right-side" >
+           
+            <div class="info-holder"><span style="height: 100%;">
+              </span><p style="opacity: 1; transform: none;">
+                <a href="mailto:info@cybernest.com">
+                  info@cybernest.com</a>
+                  <br>
+                </p>
+            </div>
+
+            <div class="info-holder"><span style="height: 100%;">
+            </span><p style="opacity: 1; transform: none;">
+              <a href="mailto:info@cybernest.com">
+                info@cybernest.com</a>
+                <br>
+              </p>
+          </div>
+          
+          <div class="info-holder"><span style="height: 100%;">
+          </span><p style="opacity: 1; transform: none;">
+            <a href="mailto:info@cybernest.com">
+              info@cybernest.com</a>
+              <br>
+            </p>
+        </div>
+         <div class="info-holder"><span style="height: 100%;">
+              </span><p style="opacity: 1; transform: none;">
+                <a href="mailto:info@cybernest.com">
+                  info@cybernest.com</a>
+                  <br>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="showcase">
+      <div class="container showcase-inner">
+        <h1>Welcome</h1>
+        <p>We have added a black background-color, and the top and bottom margin is used to create some distance between each bar.        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+.menu-wrap { 
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.menu-wrap .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.menu-wrap .hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: rgb(13 110 139 / 75%) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+/* Hamburger Lines - Top & Bottom */
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.menu-wrap .hamburger > div::after {
+  top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* Show Menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: 0.75s;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition:  opacity 0.4s ease 0.4s;
+}
+
+.menu-wrap .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu > div {
+  background: rgb(24 39 51 / 85%);
+  border-radius: 50%;
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div {
+  text-align: center;
+  max-width: 95vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none;
+  color: #fff;
+  opacity: 1;
+  transform: none;
+  font-size: 1.5rem;
+  padding: 0 100px;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  font-family: Graphik,sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+left-side{
+  width: 50%;
+  -webkit-flex: 1 1;
+    flex: 1 1;
+    z-index: 2;
+    display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+}
+
+right-side{
+  width: 50%;
+  align-items: center; 
+}
+
+.menu .bigLine {
+  position: absolute;
+  width: 1px;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  background: #4a92a8;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+.showcase {
+  background:#4a92a8;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+  display: none;
+}
+
+.showcase:before {
+  content: '';
+  background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.showcase h1 {
+  font-size: 4rem;
+}
+
+.showcase p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #017091;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  transition: opacity 1s ease-in-out;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* ------------ */
+
+.navigation-box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 30px 40px 30px;
+}
+
+.navigation-box .container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.navigation-box .bigLine {
+  position: absolute;
+  width: 1px;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  background: #0e0b0b;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+  .navigation-box .contact-information {
+    -webkit-flex: 1 1;
+    flex: 1 1;
+    z-index: 2;
+}
+
+.navigation-box .contact-information .info-holder, .navigation-box .contact-information .info-holder a {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 300;
+  color: #110a0a;
+  text-decoration: none;
+}
+
+.navigation-box .contact-information .info-holder {
+  padding-left: 20px;
+  position: relative;
+}
+
+.navigation-box .contact-information .info-holder+.info-holder {
+  font-family: Graphik,sans-serif;
+  margin-top: 60px;
+  color: #050505;
+}
+
+.navigation-box .main-nav {
+  -webkit-flex: 1 1;
+  flex: 1 1;
+  z-index: 2;
+}
+
+.navigation-box .background-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(globe.https://www.cybernest.com/_next/static/media/nav-background.3d12c9b9.svg) no-repeat;
+  background-position: 50%;
+  opacity: .5;
+}
+
+.navigation-box .main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.navigation-box .main-nav li+li {
+  margin-top: 20px;
+}
+
+.navigation-box .main-nav li .num {
+  display: inline-block;
+  vertical-align: middle;
+  color: hsla(0, 5%, 4%, 0.65);
+  font-size: 14px;
+  margin-right: 15px;
+}
+.navigation-box .main-nav span {
+  width: 15px;
+  height: 1px;
+  background: hsla(0, 5%, 4%, 0.65);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.navigation-box .main-nav li a {
+  font-family: Graphik,sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #0e0d0d;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
