@@ -5,7 +5,6 @@ html, body {
 body{
   font-family: 'Roboto';
   background: #fffafa;
-  overflow: hidden; /* no scrollbars.. */
 }
 .loading{
   position: absolute;
@@ -60,11 +59,6 @@ body{
 }
 
 
-
-body {
-  background: rgb(255, 255, 255);
-  overflow: hidden;
-}
 .wrap {
   position: relative;
   top: 50%;

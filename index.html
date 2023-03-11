@@ -2,12 +2,21 @@
 <html >
   <head>
     <meta charset="utf-8">
-    <title>Loading Animation</title>
+    <title>Prototype By Unimind </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="menu.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+      .activeA {
+        display: none;
+      }
+    </style>
   </head>
-  <body>
+
+<!-- oncontextmenu="return false" to off right muse click -->
+  <body >
   
     <div class="wrap">
       <div class="c"></div>
@@ -111,65 +120,59 @@
       <div class="navigation-box">
        <div class="container">
         <div class="bigLine" style="height: 90%;"></div>
+       
         <div class="main-nav">
           <ul>
             <li style="opacity: 1; transform: none;">
-              <div class="num">01</div>
-              <span></span>
-              <a href="">Home</a>
+              
+              <a href="#">Home</a>
             </li>
             <li style="opacity: 1; transform: none;">
-              <div class="num">02</div>
-              <span></span>
-              <a >Services</a>
-
-
-              <div class="haschildern services">
-                <a href="" class="center"> Services</a>
-                <p> This is demo lorum lipsum data about the company and our founder. You can visit our office at any time.</p>
-                <button class="btn"> Explore More</button>
-                <ul>
-                  <li id="nav-2" class="slide-out-2 ">
-                    <a href="#about" class="">Job Listed</a>
-                  </li>
-                  <li id="nav-2" class="slide-out-2 ">
-                    <a href="#about" class="">Team</a>
-                  </li>
-                  <li id="nav-2" class="slide-out-2 ">
-                    <a href="#about" class="">Insights</a>
-                  </li>
-                </ul>
-              </div>
+              
+              <a href="#services" class="service_tab">Services</a>
               
             </li>
             <li style="opacity: 1; transform: none;">
-              <div class="num">03</div>
-              <span></span>
-              <a href="">Work</a>
+              
+              <a href="#">Work</a>
             </li>
             <li style="opacity: 1; transform: none;">
-              <div class="num">04</div>
-              <span></span>
-              <a href="">About</a>
+              
+              <a href="#">About</a>
             </li>
             <li style="opacity: 1; transform: none;">
-              <div class="num">05</div>
-              <span></span>
-              <a href="">Careers</a>
+              <a href="#">Careers</a>
               
              
             </li>
             <li style="opacity: 1; transform: none;">
-              <div class="num">06</div>
-              <span></span>
-              <a href="">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>
         
-     
+ 
+        <div class="haschildern" id="services">
+          <a href="" class="center"> Services</a>
+          <p> This is demo lorum lipsum data about the company and our founder. You can visit our office at any time.</p>
+          <button class="btn"> Explore More</button>
+          <ul>
+            <li id="nav-2" >
+              <a href="# " class="">Job Listed</a>
+            </li>
+            <li id="nav-2" >
+              <a href="# " class="">Team</a>
+            </li>
+            <li id="nav-2" >
+              <a href="#" class="">Insights</a>
+            </li>
+          </ul>
+        </div>
 
-        <div class="contact-information">
+
+
+
+        <div class="contact-information" id="contact">
           <div class="info-holder">
             <span style="height: 100%;"></span>
             <p style="opacity: 1; transform: none;">
@@ -195,7 +198,6 @@
                 <br>
                 <a href="tel:+13476270234" itemprop="telephone">+1 347 627 0234</a>
                 <br>
-                <br>
               </div>
               <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
                 <a href="https://www.google.com/maps/place/Cyber+Nest/@31.4697647,74.2615209,15z/data=!4m2!3m1!1s0x0:0xffc32ef4b23d9a66?sa=X&amp;ved=2ahUKEwj9hISryfP4AhV1i_0HHaiLBjMQ_BJ6BAhKEAU" target="_blank">
@@ -212,9 +214,9 @@
             </div>
             </p>
           </div>
-        </div>
+        </div> 
         
-        <div class="background-image" style="opacity: 1; transform: scale(4) rotateZ(15deg) translateZ(0px);"></div>
+        <div class="background-image" style="opacity: 1;"></div>
       </div>
     </div>
    
@@ -255,27 +257,93 @@
   <div class="menu-bar3"></div>
 </div>
 
+<div id="particles-js"></div>
+  <div class="herobanner">
 
-<div class="herobanner">
+    <div class="left">
+      <h1>The center for<br><span>home education</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aliquid.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aliquid.</p>
+      <a href="#">Learn more</a>
+    </div>
 
-  <div class="left">
-    <h1>The center for<br><span>home education</span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aliquid.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aliquid.</p>
-    <a href="#">Learn more</a>
+  <div class="globe">
+  <figure class="surface">
+    <a href="#d" class="beacon" data-location="Hawaii"></a>
+    <a href="#d" class="beacon" data-location="Tonga"></a>
+    <a href="#d" class="beacon" data-location="Madagascar"></a>
+    <a href="#d" class="beacon" data-location="Cyprus"></a>
+    <a href="#d" class="beacon" data-location="Dominican-Republic"></a>
+  </figure>
   </div>
 
-<div class="globe">
-<figure class="surface">
-  <a href="#d" class="beacon" data-location="Hawaii"></a>
-  <a href="#d" class="beacon" data-location="Tonga"></a>
-  <a href="#d" class="beacon" data-location="Madagascar"></a>
-  <a href="#d" class="beacon" data-location="Cyprus"></a>
-  <a href="#d" class="beacon" data-location="Dominican-Republic"></a>
-</figure>
+  </div>
+
+
+<div class="video-wrapper">
+  <video autoplay muted loop playsinline preload="metadata">
+	  <source src="vid_profile.mp4" type="video/mp4">
+  </video>
 </div>
 
-</div>
-
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+ <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="script.js"></script>
-  </body>
+    <script src="particles.js"></script>
+
+<script>
+     var contactbar = document.querySelector('#contact');
+   var servicebar = document.querySelector('#services');
+  $("#services").hide()
+  $("#contact").show()
+  $(document).ready(function(){
+    $(".service_tab").click(function(){
+      
+      var prop = $("#contact").css("display")
+      if(prop == "block"){
+        $("#services").slideDown()
+        $("#contact").hide()
+      } else {
+        $("#services").hide()
+        $("#contact").show()
+      }
+
+    })
+  })
+</script>
+
+<!-- <script>
+  document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  }
+</script> -->
+</body>
 </html>

@@ -1,4 +1,5 @@
 function progress(){
+  var videocase = document.querySelector('.video-wrapper');
   var showcase = document.querySelector('.herobanner');
   var menuWrap = document.querySelector('.menu-wrap');
   var percent = document.querySelector('.percent');
@@ -14,6 +15,8 @@ function progress(){
       progressBar.style.display = "none";
       hamburgerMenu.style.display = "block";
        showcase.style.display = "block";
+       videocase.style.display = "block";
+       
     }else{
       per = per + 2;
       progress.style.width = per + 'px';

@@ -71,6 +71,7 @@ body {
   right: 0;
   left: 0;
   padding: 30px 40px 30px;
+  
 }
 
 .navigation-box .container {
@@ -83,7 +84,7 @@ body {
 
 .navigation-box .bigLine {
   position: absolute;
-  width: 1px;
+  width: 10px;
   top: 50%;
   bottom: 50%;
   left: 50%;
@@ -98,7 +99,7 @@ body {
   .navigation-box .contact-information {
     -webkit-flex: 1 1;
     flex: 1 1;
-    z-index: 2;
+    z-index: 9;
 }
 
 .navigation-box .contact-information .info-holder, .navigation-box .contact-information .info-holder a {
@@ -124,7 +125,7 @@ body {
 .navigation-box .main-nav {
   -webkit-flex: 1 1;
   flex: 1 1;
-  z-index: 2;
+  z-index: 10;
 }
 
 .navigation-box .background-image {
@@ -133,7 +134,7 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(globe.svg) no-repeat;
+  background: url(navbar.gif) no-repeat;
   background-position: 50%;
   opacity: .9;
 }
@@ -141,7 +142,7 @@ body {
 .navigation-box .main-nav ul {
   list-style: none;
   margin: 0;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 70px;
   color: #000091;
 }
 
@@ -185,31 +186,78 @@ body {
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
+  padding-left: 70px;
 }
  /******************** 
           Submenu 
  ********************/
+ .haschildern a {
+  font-family: Graphik,sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  line-height: 4.5rem;
 
+}
+
+.haschildern:target  {
+  line-height: 1.5;
+  color: white;
+}
 
 .haschildern {
+  padding-top: 4rem;
+  padding-left: 2em;
+  background: #000091;
+  color:#FFF;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  position: fixed;
+  bottom: 0;
+}
+
+.haschildern ul{
+  list-style: none;
+}
+
+ /* .haschildern {
+  
+ background: #000091;
+ color: white;
+ position: fixed;
+ top: -450px;
+ padding: 30px 40px 30px;
+ transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+ overflow: hidden;
+ box-sizing: border-box;
+
+ z-index: 10;
+ } */
+
+ .navigation-box .main-nav ul :active {
+  background: #000091;
+  color: #fff;
+}
+
+/* .haschildern {
   background: #000091;
   color: white;
 position: absolute;
 top: -250px;
 left: 50%;
-width: 50%;
 height: 250px;
 padding: 20px;
 transition: top 2000ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
-overflow: hidden;
+
 box-sizing: border-box;
   
-}
+} */
 
-.haschildern a {
-  color: white;
-
-}
 
 
 
@@ -231,7 +279,7 @@ box-sizing: border-box;
 .menu-bar3 {
   width: 3.5rem;
   height: 0.2rem;
-  background-color: #171718;
+  background-color: #d6d6d6;
   margin: 0.8rem 0;
   transition: 0.4s;
 }
@@ -281,7 +329,7 @@ box-sizing: border-box;
 }
 
 .overlay-slide-top {
-  transition: all 0.8s ease-in-out;
+  transition: all 1.2s ease-in-out;
   transform: translateY(-100vw);
 }
 .overlay-slide-bottom {
