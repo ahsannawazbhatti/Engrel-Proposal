@@ -1,3 +1,33 @@
+@media only screen and (max-width: 620px) {
+  .navigation-box .contact-information {
+      display: none !important;
+      }
+      .navigation-box .bigLine{
+        height: 0% !important;
+      }
+
+      .left {
+        width: 100% !important;
+        padding: 10px !important;
+        color: white;
+    }
+    
+    .navigation-box .main-nav ul {
+      padding: 0px 0px 0px 10px !important;
+     }
+    .globe {
+      position: absolute !important;
+      top: 306px !important;
+      left: 35% !important;
+      width: 230px !important;
+      height: 230px !important;
+      overflow: hidden!important;
+      border-radius: 200px !important;
+  }
+
+      
+  } 
+
 
 * {
   margin: 0;
@@ -83,6 +113,7 @@ body {
 }
 
 .navigation-box .bigLine {
+  height: 90%;
   position: absolute;
   width: 10px;
   top: 50%;
