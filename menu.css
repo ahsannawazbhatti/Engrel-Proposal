@@ -8,7 +8,7 @@
 
       .left {
         width: 100% !important;
-        padding: 10px !important;
+        padding: 30px !important;
         color: white;
     }
     
@@ -18,9 +18,9 @@
     .globe {
       position: absolute !important;
       top: 306px !important;
-      left: 35% !important;
-      width: 230px !important;
-      height: 230px !important;
+      left: 46% !important;
+      width: 165px !important;
+      height: 165px !important;
       overflow: hidden!important;
       border-radius: 200px !important;
   }
@@ -128,6 +128,8 @@ body {
 }
 
   .navigation-box .contact-information {
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.3);
     -webkit-flex: 1 1;
     flex: 1 1;
     z-index: 9;
@@ -165,7 +167,7 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(navbar.gif) no-repeat;
+  background: url(nav) no-repeat;
   background-position: 50%;
   opacity: .9;
 }
@@ -192,8 +194,13 @@ body {
   margin-top: 20px;
 }
 
-
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
 
 .navigation-box .main-nav li .num {
   display: inline-block;
@@ -310,7 +317,7 @@ box-sizing: border-box;
 .menu-bar3 {
   width: 3.5rem;
   height: 0.2rem;
-  background-color: #d6d6d6;
+  background-color: #4aebff;
   margin: 0.8rem 0;
   transition: 0.4s;
 }
