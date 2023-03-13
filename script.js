@@ -38,7 +38,7 @@ const navItems = [nav1, nav2, nav3, nav4, nav5];
 // Control Navigation Animation
 function navAnimation(val1, val2) {
   navItems.forEach((nav, i) => {
-    nav.classList.replace(`slide-${val1}-${i + 1}`, `slide-${val2}-${i + 1}`);
+   
   });
 }
 
